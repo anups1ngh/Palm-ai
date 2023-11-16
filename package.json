@@ -1,0 +1,23 @@
+{
+  "name": "palm-ai-helper",
+  "version": "1.0.0",
+  "description": "This is a PaLM AI helper which will get you result based on the prompt you give",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anup Kumar Singh",
+  "license": "ISC",
+  "dependencies": {
+    "@google-ai/generativelanguage": "^1.1.0",
+    "google-auth-library": "^9.2.0"
+  },
+  "keywords": [
+    "palm",
+    "ai",
+    "helper"]
+    ,
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/anups1ngh/Palm-ai.git"}
+}
