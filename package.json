@@ -1,6 +1,6 @@
 {
   "name": "palm-ai-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a PaLM AI helper which will get you result based on the prompt you give",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,10 @@
   "keywords": [
     "palm",
     "ai",
-    "helper"]
-    ,
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/anups1ngh/Palm-ai.git"}
+    "helper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anups1ngh/Palm-ai.git"
+  }
 }
