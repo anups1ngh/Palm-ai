@@ -56,18 +56,6 @@ async function test() {
 test();
 ```
 
-## Additional Methods
-
-`PalmHelper(query)`
-
-- `query`: The query to send to the DiscussService of the Google Generative Language API.
-
-```javascript
-Palm.PalmHelper("What is the best smartPhone today?").then((res) => {
-  console.log(res);
-});
-```
-
 ## Configuration
 
 Before using <b>Palm</b>, make sure to obtain your API key from [Google Generative AI API](https://developers.generativeai.google/products/palm?authuser=3).
