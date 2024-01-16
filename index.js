@@ -30,6 +30,9 @@ class PaLM{
         });
     }
 
+    async askAI(query) {
+        return await this.main(query);
+    }
 }
 
 module.exports = new PaLM;
