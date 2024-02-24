@@ -1,6 +1,6 @@
 {
   "name": "palm-ai-helper",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "This is a PaLM AI helper which will get you result based on the prompt you give",
   "main": "index.js",
   "scripts": {
