@@ -6,11 +6,12 @@ const MODEL_NAME = "models/chat-bison-001";
 class PaLM{
     constructor(){
         this.messages = [];
+        this.API_KEY = '';
     }
     setAPIKey(API_key){
         this.API_KEY = API_key;
     }
-    async main(query) {
+    async askAI(query) {
         const client = new DiscussServiceClient({
             authClient: new GoogleAuth().fromAPIKey(this.API_KEY),
         });
@@ -22,16 +23,6 @@ class PaLM{
         });
         this.messages.push({ content: result[0].candidates[0].content});
         return result[0].candidates[0].content;
-    }
-
-    PalmHelper(query) {
-        this.main(query).then((res) => {
-            return res;
-        });
-    }
-
-    async askAI(query) {
-        return await this.main(query);
     }
 }
 

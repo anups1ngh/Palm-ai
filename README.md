@@ -14,51 +14,22 @@ npm i palm-ai-helper
 
 # Usage
 
+## Configuration
+
+Before using <b>Palm</b>, make sure to obtain your API key from [Google Generative AI API](https://developers.generativeai.google/products/palm?authuser=3).
+
 ## Quick Start
 
 ```javascript
 const Palm = require("palm-ai-helper");
-const API_KEY = "YOUR_GOOGLE_API_KEY";
+const Palm.setAPIKey('YOUR_API_KEY');
 
-Palm.setAPIKey(API);
-
-async function test() {
-  const res = await Palm.main("How to make pizza at home?");
-  console.log(res);
+async function test(){
+    await palm.askAI('how to make pizza? ').then(result => console.log(result));
+    await palm.askAI('what will happend if i throw it in water?').then(result => console.log(result));
 }
-
 test();
 ```
-
-## Initializing and Sending Queries
-
-1. Import the library
-
-```javascript
-const Palm = require("palm-ai-helper");
-```
-
-2. Set your API key:
-
-```javascript
-const API_KEY = "YOUR_GOOGLE_API_KEY";
-Palm.setAPIKey(API);
-```
-
-3. Send a query:
-
-```javascript
-async function test() {
-  const res = await Palm.main("How to make pizza at home?");
-  console.log(res);
-}
-
-test();
-```
-
-## Configuration
-
-Before using <b>Palm</b>, make sure to obtain your API key from [Google Generative AI API](https://developers.generativeai.google/products/palm?authuser=3).
 
 ## License
 
