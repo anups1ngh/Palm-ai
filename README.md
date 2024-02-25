@@ -16,7 +16,7 @@ npm i palm-ai-helper
 
 ## Configuration
 
-Before using <b>Palm</b>, make sure to obtain your API key from [Google Generative AI API](https://developers.generativeai.google/products/palm?authuser=3).
+Before using <b>Palm</b>, make sure to obtain your API key from [Google Generative AI API](https://aistudio.google.com/app/u/1/apikey).
 
 ## Quick Start
 
